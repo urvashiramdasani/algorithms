@@ -1,0 +1,15 @@
+Recursion can be direct or indirect. In direct, the function directly calls itself. 
+In indirect, the function fun1 calls another function fun2 which in turn calls fun1.
+
+Some algorithms are recursive in nature - Dynamic Programming, Backtracking, Divide and Conquer, Tower or Hanoi, DFS.
+
+Use sequnetial approach as shown in video to solve recurrences.
+
+In tail recursion, the parent has got nothing to do when the child finishes its execution. It takes comparatively lesser time than head recursion.
+
+In tail recursion, compilers completely remove the function call recursion with an expression and add a goto statement.
+This is called tail call elimination.
+
+Quick sort is faster than merge sort because it is tail recursion.
+
+Inorder, Preorder - tail recursive. Post order traversal - non tail recursive.

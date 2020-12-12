@@ -1,0 +1,33 @@
+STL stands for Standard Template Library. It contains containers and algorithms.
+Containers : -
+  1. Simple - pair, vector, forward list, list.
+  2. Container Adapters - stack, queue
+  3. Associative - set, map, hash tables.
+  
+Algorithms - #include <algorithm> - binary search, reverse, sort. They take beginning address and end address.
+
+Vector is a dynamic array.
+
+Asymtotic Analysis - measures order of growth of input size. Limitation - We always take n tends to infinity. May fail for smaller input sizes.
+
+c < log logn < logn < n^1/3 < n^1/2 < n < n^2 < n^3 < n^4 < 2^n < n^n
+
+Big-O represents exact or upper bound
+
+n-player game (search) has no upper bound. It is omega(n).
+
+1. for(int i=0; i<n; i = pow(i,c)) {} - > theta(loglogn)
+2. for(int i =0; i< 100; i++) {} - constant loop - theta(1)
+
+While studying, have a look at Recursion Tree Method. In case the tree is not symmetric, assume the tree to be symmetric and use Big-O notation instead of Big theta.
+
+Space Complexity - Order of growth of memory (RAM) space in terms of input size.
+Auxiliary Space - Order of growth of extra or temporary space in terms of input size (more used).
+
+We can compare algorithms with same space complexity using auxiliary space .
+Auxiliary space complexity of :
+Insertion, Bubble, Heap sort - theta(1)
+Merge Sort - theta(n)
+Quick sort - theta(logn)
+
+theta(logn!) = theta(nlogn)

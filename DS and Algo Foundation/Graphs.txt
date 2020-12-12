@@ -1,0 +1,23 @@
+Number of edges in undirected graph : 0 <= E <= v * (v - 1) / 2
+Number of edges in directed graph : 0 <= E <= v * (v - 1) 
+
+Comparison of Adjacency list and adjacency matrix representation :-
+
+-------------------------------------------
+Criteria          List          Matrix
+-----------------------------------------
+Memory          O(V + E)          O(V * V)
+--------------------------------------------
+Check if there
+is an edge      O(V)                O(1)
+from u to v
+---------------------------------------------
+Find all 
+adjancent of u   O(degre(u))       O(V)
+----------------------------------------------
+Add an edge     O(1)                O(1)
+---------------------------------------------
+Remove an edge    O(V)              O(1)
+-------------------------------------------------
+
+Adding vertex in list is faster

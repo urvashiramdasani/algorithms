@@ -1,0 +1,11 @@
+It is an optimization over recursion. Idea is to reuse the solutions of subproblems when there are two overlapping subproblems.
+Ways to solve Dynamic Programming : -
+1. Memoization (Top Down)
+2. Tabulation (Bottom Up)
+
+Memoization is easy to implement compared to Tabulation. Tabulation does not have overhead of recursion calls. 
+  
+Substring - pick all characters in continuos manner in same order.
+Subsequence - pick some characters in same order, may not be contiguous.
+
+The dimension of array will be number of parameters that change during recursion.

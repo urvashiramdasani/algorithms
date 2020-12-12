@@ -1,0 +1,16 @@
+Stack allocation : -
+int arr[n], int arr[100], int arr[] = {10, 15, 20, 30}
+
+Heap Allocation - int *arr = new int[n]
+
+Dynamic array first allocate a memory block. If this block is filled, it doubles or triples the original size (depends).
+
+If we input n elements in an n sized dynamic array, it will take O(1) time. If we input (n+1)th elements, we need to double the array and 
+copy all the elements to the new array, which would take theta(n) time.
+Therefore, average time complexity = O(1) + O(1) + ... (ntimes) + theta(n) / n + 1 = O(1)
+
+Insert, delete in array - O(n)
+Insert and delete at end, get and update ith element - O(1)
+Search in array - O(n), O(nlogn)
+
+Look programs - Second Largest, Remove Duplicate
