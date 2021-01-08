@@ -13,4 +13,18 @@ Insert, delete in array - O(n)
 Insert and delete at end, get and update ith element - O(1)
 Search in array - O(n), O(nlogn)
 
-Look programs - Second Largest, Remove Duplicate
+Look programs - Second Largest, Remove Duplicate, Juggling algorithm
+
+Arrays allow random access of elements. This makes accessing elements by their position faster.
+Arrays have better cache locality that can make a pretty big difference in performance.
+
+Rotation of arrays:
+1. Normal rotation using extra space = O(n) time and O(n) space
+2. One by one rotation k times = O(n * k) time and O(1) space
+3. Juggling Algorithm - O(n) time and O(1) space
+
+In juggling algorithm, we first find GCD of n and k and divide the array into that subsets. then move the elements in all sets. Look at the algorithm and example to understand.
+
+Window Sliding Technique - used to find maximum sum of k consecutive elements in an array in O(n) time. first calculate the sum of first k element and set this to max_sum. Now slide the window (k units long) to index 1. subtract the first element and add the end element and compare with max_sum and update accordingly. See example
+
+Prefix sum array - The prefix sum array of any array, arr[] is defined as an array of same size say, prefixSum[] such that the value at any index i in prefixSum[] is sum of all elements from indexes 0 to i in arr[].
