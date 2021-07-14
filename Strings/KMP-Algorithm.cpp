@@ -1,6 +1,19 @@
 // Used when mutiple searches are required
 // Construct Longest Proper Prefix Suffix Array
 // See video for better understanding
+/*
+
+we compare next window of txt with pat.
+txt = "AAAAABAAABA" 
+pat =  "AAAA" [Pattern shifted one position]
+This is where KMP does optimization over Naive. In this 
+second window, we only compare fourth A of pattern
+with fourth character of current window of text to decide 
+whether current window matches or not. Since we know 
+first three characters will anyway match, we skipped 
+matching first three characters. 
+
+*/
 
 #include <iostream>
 
