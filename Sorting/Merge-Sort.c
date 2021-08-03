@@ -1,3 +1,7 @@
+// Stable, O(n) auxiliary space. Well suited for linked list. takes O(1) auxiliary space
+// Variant of merge sort is block merge sort that takes theta (nlogn) time and in place.
+// Used for external sorting. In general, quick sort works better than merge sort.
+
 #include<stdio.h>
 
 void merge(int arr[],int l,int m,int r) {
