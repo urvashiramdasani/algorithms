@@ -1,3 +1,6 @@
+// In place and stable
+// Used in practice for small arrays. Python uses Tim Sort (Merge sort in case of large arrays + Insertion sort in small arrays)
+
 #include <stdio.h>
 
 // function to swap two numbers
