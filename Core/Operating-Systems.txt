@@ -1,0 +1,5 @@
+When you dont have time - Refer last minute notes from GFG. (Go through links as well).
+When you have time - Refer GATE notes.
+
+Frequently Asked Questions:-
+1. Difference between multitasking, multithreading, multiprogramming.
