@@ -1,3 +1,5 @@
+// Time complexity will remain theta(nlogn) proved.
+
 #include<stdio.h>
 #include<stdlib.h>
 #include<time.h>
