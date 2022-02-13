@@ -8,6 +8,7 @@ Hashing, Greedy Algorithms, Dynamic Programming and Backtracking. If you find an
 | Maximum Subarray Problem | Arrays | [Code](../master/Common/Maximum-Subarray-Problem.c) |
 | Median Of Medians | Arrays | [Code](../master/Common/MedianOfMedians.cpp) |
 | Strassens Multiplication | Arrays | [Code](../master/Common/Strassens_Multiplication.cpp) |
+| Find all subsets of an array | Backtracking | [Code](../master/Backtracking/find-subsets.cpp) |
 | N-Queens Problem | Backtracking | [Code](../master/Backtracking/N-Queens-Problem.cpp) |
 | Binary Search | Divide and Conquer | [Code](../master/Common/Binary-Search.c) |
 | Coin Change Problem | Dynamic Programming | [Code](../master/Dynamic_Programming/Coin_Change.cpp) |
