@@ -34,6 +34,9 @@ Hashing, Greedy Algorithms, Dynamic Programming and Backtracking. If you find an
 #### Greedy
 1. [Fractional Knapsack](../master/Common/fractional_knapsack.cpp)
 
+#### Math
+1. [Sieve of Eratosthenes](../master/Math/countPrimes.cpp)
+
 #### Recursion
 1. [Greatest Common Divisor](../master/Common/gcd.cpp)
 2. [Least Common Multiple](../master/Common/lcm.cpp)
