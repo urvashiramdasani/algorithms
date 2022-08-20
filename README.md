@@ -2,62 +2,79 @@ This repository holds all implementations of algorithms taught in the course of 
 Hashing, Greedy Algorithms, Dynamic Programming and Backtracking. If you find any better algorithm than coded here, feel free to contact me! I have also added my notes from the course.
 
 ### Table of Contents
-| Algorithm | Category | Codes |
-|-----------|----------|-------|
-| Juggling Algorithm | Arrays | [Code](../master/Common/Juggling-Algorithm.cpp) |
-| Maximum Subarray Problem | Arrays | [Code](../master/Common/Maximum-Subarray-Problem.c) |
-| Median Of Medians | Arrays | [Code](../master/Common/MedianOfMedians.cpp) |
-| Strassens Multiplication | Arrays | [Code](../master/Common/Strassens_Multiplication.cpp) |
-| Find all subsets of an array | Backtracking | [Code](../master/Backtracking/find-subsets.cpp) |
-| N-Queens Problem | Backtracking | [Code](../master/Backtracking/N-Queens-Problem.cpp) |
-| Binary Search | Divide and Conquer | [Code](../master/Common/Binary-Search.c) |
-| Coin Change Problem | Dynamic Programming | [Code](../master/Dynamic_Programming/Coin_Change.cpp) |
-| Edit Distance Problem | Dynamic Programming | [Code](../master/Dynamic_Programming/Edit_Distance.cpp) |
-| Fibonacci Last Digit | Dynamic Programming | [Code](../master/Common/fibonacci_last_digit.cpp) |
-| Longest Common Subsequence | Dynamic Programming | [Code](../master/Dynamic_Programming/Longest_Common_Subsequence.cpp) |
-| Matrix Chain Multiplication | Dynamic Programming | [Code](../master/Dynamic_Programming/Matrix-Chain-Multiplication.cpp) |
-| Memoization vs Tabulation | Dynamic Programming | [Code](../master/Dynamic_Programming/Memoization_Tabulation.cpp) |
-| KnapSack Problem | Dynamic Programming | [Code](../master/Dynamic_Programming/knapSack-Problem.cpp) |
-| Dijkstra's Algorithm | Graphs | [Code](../master/Common/Dijkstra-Algorithm.cpp) |
-| Floyd Warshall | Graphs | [Code](../master/Common/Floyd-Warshall.cpp) |
-| Prims Algorithm (Using Matrix) | Graphs | [Code](../master/Common/Prims_Algorithm_Using_Matrix.cpp) |
-| Prims Algorithm (Using Priority Queue) | Graphs | [Code](../master/Common/Prims_Algorithm_Using_Priority_Queue.cpp) |
-| Travelling Salesperson | Graphs | [Code](../master/Common/Travelling-Salesperson.cpp) |
-| Fractional Knapsack | Greedy | [Code](../master/Common/fractional_knapsack.cpp) |
-| Greatest Common Divisor | Recursion | [Code](../master/Common/gcd.cpp) |
-| Least Common Multiple | Recursion | [Code](../master/Common/lcm.cpp) |
-| Palindrome Check | Recursion | [Code](../master/Common/isPalindrome.cpp) |
-| Rod Cutting | Recursion | [Code](../master/Common/Rod-Cutting.cpp) |
-| Tower of Hanoi | Recurion | [Code](../master/Common/Tower-of-Hanoi.cpp) |
-| Count 1s in sorted array | Searching | [Code](../master/Searching/1s-in-sorted-array.cpp) |
-| Breadth First Search | Searching | [Code](../master/Searching/BFS.cpp) |
-| Depth First Search | Searching | [Code](../master/Searching/DFS.cpp) |
-| Index of First Occurence | Searching | [Code](../master/Searching/Index-of-first-occurence.cpp) |
-| Index of Last Occurence | Searching | [Code](../master/Searching/Index-of-last-occurence.cpp) |
-| Repeating and Missiong numbers | Searching | [Code](../master/Searching/Repeating-Missing.cpp) |
-| Square Root | Searching | [Code](../master/Searching/Square-Root.cpp) |
-| Bubble Sort | Sorting | [Code](../master/Sorting/Bubble-Sort.c) |
-| Bucket Sort | Sorting | [Code](../master/Sorting/Bucket-Sort.cpp) |
-| Count Sort | Sorting | [Code](../master/Sorting/Count-Sort.cpp) |
-| Heap Sort | Sorting | [Code](../master/Sorting/Heap-Sort.cpp) |
-| Insertion Sort | Sorting | [Code](../master/Sorting/Insertion-Sort.c) |
-| Merge Sort | Sorting | [Code](../master/Sorting/Merge-Sort.c) |
-| Minimum Difference | Sorting | [Code](../master/Sorting/Minimum-Difference.cpp) |
-| Partitions | Sorting | [Code](../master/Sorting/Partition.cpp) |
-| Quick Sort | Sorting | [Code](../master/Sorting/Quick-Sort.c) |
-| Randomized Quick Sort | Sorting | [Code](../master/Sorting/Quick-Sort-Ramdomized.c) |
-| Radix Sort | Sorting | [Code](../master/Sorting/Radix-Sort.cpp) |
-| Selection Sort | Sorting | [Code](../master/Sorting/Selection-Sort.cpp) |
-| Anagram Search | Strings | [Code](../master/Strings/Anagram-Search.cpp) |
-| Check Anagram | Strings | [Code](../master/Strings/areAnagram.cpp) |
-| Check Palindrome | Strings | [Code](../master/Strings/Check-Palindrome.cpp) |
-| Check Rotations | Strings | [Code](../master/Strings/areRotation.cpp) |
-| Check Subsequence | Strings | [Code](../master/Strings/isSubsequence.cpp) |
-| Count Frequency | Strings | [Code](../master/Strings/CountFreq.cpp) |
-| KMP Algorithm | Strings | [Code](../master/Strings/KMP-Algorithm.cpp) |
-| Leftmost Non Repeating Character | Strings | [Code](../master/Strings/Leftmost-Non-Repeating-Character.cpp) |
-| Leftmost Repeating Character | Strings | [Code](../master/Strings/Leftmost-Repeating-Character.cpp) |
-| Lexicographic Rank | Strings | [Code](../master/Strings/Lexicographic-Rank.cpp) |
-| Longest Susbtring without Repeating Characters | Strings | [Code](../master/Strings/longest-substring-without-repeating-characters.cpp) |
-| Pattern Searching | Strings | [Code](../master/Strings/Pattern-Searching.cpp) |
-| Rabin Karp Algorithm | Strings | [Code](../master/Strings/Rabin-Karp.cpp) |
+#### Arrays
+1. [Juggling Algorithm](../master/Common/Juggling-Algorithm.cpp)
+2. [Maximum Subarray Problem](../master/Common/Maximum-Subarray-Problem.c)
+3. [Median Of Medians](../master/Common/MedianOfMedians.cpp)
+4. [Strassens Multiplication](../master/Common/Strassens_Multiplication.cpp)
+
+#### Backtracking
+1. [Find all subsets of an array](../master/Backtracking/find-subsets.cpp)
+2. [N-Queens Problem](../master/Backtracking/N-Queens-Problem.cpp)
+
+#### Divide and Conquer
+1. [Binary Search](../master/Common/Binary-Search.c)
+
+#### Dynamic Programming
+1. [Coin Change Problem](../master/Dynamic_Programming/Coin_Change.cpp)
+2. [Edit Distance Problem](../master/Dynamic_Programming/Edit_Distance.cpp)
+3. [Fibonacci Last Digit](../master/Common/fibonacci_last_digit.cpp)
+4. [Longest Common Subsequence](../master/Dynamic_Programming/Longest_Common_Subsequence.cpp)
+5. [Matrix Chain Multiplication](../master/Dynamic_Programming/Matrix-Chain-Multiplication.cpp)
+6. [Memoization vs Tabulation](../master/Dynamic_Programming/Memoization_Tabulation.cpp)
+7. [KnapSack Problem](../master/Dynamic_Programming/knapSack-Problem.cpp)
+
+#### Graphs
+1. [Dijkstra's Algorithm](../master/Common/Dijkstra-Algorithm.cpp)
+2. [Floyd Warshall](../master/Common/Floyd-Warshall.cpp)
+3. [Prims Algorithm (Using Matrix)](../master/Common/Prims_Algorithm_Using_Matrix.cpp)
+4. [Prims Algorithm (Using Priority Queue)](../master/Common/Prims_Algorithm_Using_Priority_Queue.cpp)
+5. [Travelling Salesperson](../master/Common/Travelling-Salesperson.cpp)
+
+#### Greedy
+1. [Fractional Knapsack](../master/Common/fractional_knapsack.cpp)
+
+#### Recursion
+1. [Greatest Common Divisor](../master/Common/gcd.cpp)
+2. [Least Common Multiple](../master/Common/lcm.cpp)
+3. [Palindrome Check](../master/Common/isPalindrome.cpp)
+4. [Rod Cutting](../master/Common/Rod-Cutting.cpp)
+5. [Tower of Hanoi](../master/Common/Tower-of-Hanoi.cpp)
+
+#### Searching
+1. [Count 1s in sorted array](../master/Searching/1s-in-sorted-array.cpp)
+2. [Breadth First Search](../master/Searching/BFS.cpp)
+3. [Depth First Search](../master/Searching/DFS.cpp)
+4. [Index of First Occurence](../master/Searching/Index-of-first-occurence.cpp)
+5. [Index of Last Occurence](../master/Searching/Index-of-last-occurence.cpp)
+6. [Repeating and Missiong numbers](../master/Searching/Repeating-Missing.cpp)
+7. [Square Root](../master/Searching/Square-Root.cpp)
+
+#### Sorting
+1. [Bubble Sort](../master/Sorting/Bubble-Sort.c)
+2. [Bucket Sort](../master/Sorting/Bucket-Sort.cpp)
+3. [Count Sort](../master/Sorting/Count-Sort.cpp)
+4. [Heap Sort](../master/Sorting/Heap-Sort.cpp)
+5. [Insertion Sort](../master/Sorting/Insertion-Sort.c)
+6. [Merge Sort](../master/Sorting/Merge-Sort.c)
+7. [Minimum Difference](../master/Sorting/Minimum-Difference.cpp)
+8. [Partitions](../master/Sorting/Partition.cpp)
+9. [Quick Sort](../master/Sorting/Quick-Sort.c)
+10. [Randomized Quick Sort](../master/Sorting/Quick-Sort-Ramdomized.c)
+11. [Radix Sort](../master/Sorting/Radix-Sort.cpp)
+12. [Selection Sort](../master/Sorting/Selection-Sort.cpp)
+
+#### Strings
+1. [Anagram Search](../master/Strings/Anagram-Search.cpp)
+2. [Check Anagram](../master/Strings/areAnagram.cpp)
+3. [Check Palindrome](../master/Strings/Check-Palindrome.cpp)
+4. [Check Rotations](../master/Strings/areRotation.cpp)
+5. [Check Subsequence](../master/Strings/isSubsequence.cpp)
+6. [Count Frequency](../master/Strings/CountFreq.cpp)
+7. [KMP Algorithm](../master/Strings/KMP-Algorithm.cpp)
+8. [Leftmost Non Repeating Character](../master/Strings/Leftmost-Non-Repeating-Character.cpp)
+9. [Leftmost Repeating Character](../master/Strings/Leftmost-Repeating-Character.cpp)
+10. [Lexicographic Rank](../master/Strings/Lexicographic-Rank.cpp)
+11. [Longest Susbtring without Repeating Characters](../master/Strings/longest-substring-without-repeating-characters.cpp)
+12. [Pattern Searching](../master/Strings/Pattern-Searching.cpp)
+13. [Rabin Karp Algorithm](../master/Strings/Rabin-Karp.cpp)
